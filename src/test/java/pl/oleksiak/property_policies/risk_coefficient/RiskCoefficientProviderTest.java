@@ -1,4 +1,4 @@
-package pl.oleksiak.property_policies.risk_type;
+package pl.oleksiak.property_policies.risk_coefficient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

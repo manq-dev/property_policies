@@ -1,4 +1,4 @@
-package pl.oleksiak.property_policies.risk_type;
+package pl.oleksiak.property_policies.risk_coefficient;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.env.Environment;

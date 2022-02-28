@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import pl.oleksiak.property_policies.model.Policy;
 import pl.oleksiak.property_policies.model.RiskType;
 import pl.oleksiak.property_policies.model.SubObject;
-import pl.oleksiak.property_policies.risk_type.RiskCoefficientProvider;
+import pl.oleksiak.property_policies.risk_coefficient.RiskCoefficientProvider;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
