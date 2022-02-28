@@ -1,0 +1,41 @@
+###
+POST http://localhost:8080/calculate
+Content-Type: application/json
+
+{
+  "policyNumber" : "LV20-02-100000-5-A",
+  "policyStatus" : "REGISTERED",
+  "policyObjects" : [ {
+    "objectName" : "House",
+    "subObjects" : [ {
+      "subObjectName" : "subObjectA",
+      "sumInsured" : 100.00,
+      "riskType" : "FIRE"
+    }, {
+      "subObjectName" : "subObjectB",
+      "sumInsured" : 8.00,
+      "riskType" : "THEFT"
+    } ]
+  } ]
+}
+
+###
+POST http://localhost:8080/calculate
+Content-Type: application/json
+
+{
+  "policyNumber" : "LV20-02-100000-B",
+  "policyStatus" : "REGISTERED",
+  "policyObjects" : [ {
+    "objectName" : "House",
+    "subObjects" : [ {
+      "subObjectName" : "subObjectA",
+      "sumInsured" : 500.00,
+      "riskType" : "FIRE"
+    }, {
+      "subObjectName" : "subObjectB",
+      "sumInsured" : 102.51,
+      "riskType" : "THEFT"
+    } ]
+  } ]
+}
